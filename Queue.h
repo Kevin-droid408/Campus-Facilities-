@@ -23,7 +23,8 @@ class Queue{
 
         void enqueue(T);
         void dequeue();
-        int peek();
+        T peek();
+        T peeklast();
         bool isEmpty();
         bool isFull();
         void display();
@@ -88,12 +89,20 @@ void Queue<T>::dequeue(){
 }
 
 template <class T>
-int Queue<T>::peek(){
+T Queue<T>::peek(){
     if(isEmpty()){
         cout << "Queue is Empty!" << endl;
         return -1;
     }
     return rear->next->data;
+}
+
+template <class T>
+T Queue<T>::peeklast(){
+    if(isEmpty()){
+        cout << "Queue is Empty!" << endl;
+    }
+    return rear->data;
 }
 
 template <class T>
@@ -104,6 +113,24 @@ bool Queue<T>::isEmpty(){
 template <class T>
 bool Queue<T>::isFull(){
     return count;
+}
+
+template <class T>
+void Queue<T>::display(){
+    if(isEmpty()){
+        cout << "Queue is Empty!" << endl;
+        return;
+    }
+
+    Node<T>* current = rear->next;                      //we start at the front of the queue
+    cout << "Queue (Front to Rear): ";
+
+    int elementsPrinted = 0;
+    while(elementsPrinted < count){
+        cout << current->data << " ";
+        current = current->next;
+        elementsPrinted++;
+    }
 }
 
 #endif
