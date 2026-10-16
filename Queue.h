@@ -53,7 +53,7 @@ Queue<T>::~Queue(){
 
 template <class T>
 void Queue<T>::enqueue(T item){
-    Node<T>* newNode = new Node<T>;
+    Node<T>* newNode = new Node<T>(item);
     if(isEmpty()){
         cout << "Queue is Empty!"<< endl;
         rear = newNode;
@@ -71,6 +71,7 @@ template <class T>
 void Queue<T>::dequeue(){
     if(isEmpty()){
         cout << "Queue is Empty!" << endl;
+        return;
     }
     Node<T>* front = rear->next;
     T item = front->data;
@@ -92,7 +93,7 @@ template <class T>
 T Queue<T>::peek(){
     if(isEmpty()){
         cout << "Queue is Empty!" << endl;
-        return -1;
+        return false;
     }
     return rear->next->data;
 }
@@ -101,6 +102,7 @@ template <class T>
 T Queue<T>::peeklast(){
     if(isEmpty()){
         cout << "Queue is Empty!" << endl;
+        return false;
     }
     return rear->data;
 }
@@ -112,7 +114,7 @@ bool Queue<T>::isEmpty(){
 
 template <class T>
 bool Queue<T>::isFull(){
-    return count;
+    return false;
 }
 
 template <class T>
