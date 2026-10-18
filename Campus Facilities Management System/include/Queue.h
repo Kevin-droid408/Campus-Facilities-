@@ -1,42 +1,31 @@
 #ifndef QUEUE_H
 #define QUEUE_H
 
+#include "Node.h"
 #include <iostream>
 using namespace std;
 
-template <class T>
-class Node{
-    public:
-        T data;
-        Node<T>* next;
-        Node(T);
-};
-
+/*Queue represented using a circular array*/
 template <class T>
 class Queue{
     private:
         Node<T>* rear;
         int count;
     public:
-        Queue();
-        ~Queue();
+        Queue();                            //default constructor
+        ~Queue();                           //destructor constructor
 
         void enqueue(T);
         void dequeue();
-        T peek();
-        T peeklast();
-        bool isEmpty();
+        bool peek();
+        bool peeklast();
+        bool isEmpty() const;
         bool isFull();
         void display();
 
 };
 
 //implementations
-template <class T>
-Node<T>::Node(T value){
-    data = value;
-    next = nullptr;
-}
 
 template <class T>
 Queue<T>::Queue(){
@@ -90,25 +79,27 @@ void Queue<T>::dequeue(){
 }
 
 template <class T>
-T Queue<T>::peek(){
+bool Queue<T>::peek(){
     if(isEmpty()){
         cout << "Queue is Empty!" << endl;
         return false;
     }
     return rear->next->data;
+    return true;
 }
 
 template <class T>
-T Queue<T>::peeklast(){
+bool Queue<T>::peeklast(){
     if(isEmpty()){
         cout << "Queue is Empty!" << endl;
         return false;
     }
     return rear->data;
+    return true;
 }
 
 template <class T>
-bool Queue<T>::isEmpty(){
+bool Queue<T>::isEmpty() const{
     return rear == nullptr;
 }
 
