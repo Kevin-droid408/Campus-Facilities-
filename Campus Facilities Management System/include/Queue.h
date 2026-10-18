@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-/*Queue represented using a circular array*/
+/*Queue represented using a circular linked list*/
 template <class T>
 class Queue{
     private:
@@ -17,8 +17,8 @@ class Queue{
 
         void enqueue(T);
         void dequeue();
-        bool peek();
-        bool peeklast();
+        T peek();
+        T peeklast();
         bool isEmpty() const;
         bool isFull();
         void display();
@@ -34,9 +34,18 @@ Queue<T>::Queue(){
 }
 
 template <class T>
-Queue<T>::~Queue(){
-    while(!isEmpty()){
-        dequeue();
+Queue<T>::~Queue() {
+    while (!isEmpty()) {
+        Node<T>* front = rear->next;
+
+        if (front == rear) {
+            rear = nullptr;
+        } else {
+            rear->next = front->next;
+        }
+
+        delete front;
+        count--;
     }
 }
 
@@ -44,7 +53,7 @@ template <class T>
 void Queue<T>::enqueue(T item){
     Node<T>* newNode = new Node<T>(item);
     if(isEmpty()){
-        cout << "Queue is Empty!"<< endl;
+        
         rear = newNode;
         rear->next = rear;
     }
@@ -79,23 +88,21 @@ void Queue<T>::dequeue(){
 }
 
 template <class T>
-bool Queue<T>::peek(){
+T Queue<T>::peek(){
     if(isEmpty()){
         cout << "Queue is Empty!" << endl;
-        return false;
+        return T{};
     }
     return rear->next->data;
-    return true;
 }
 
 template <class T>
-bool Queue<T>::peeklast(){
+T Queue<T>::peeklast(){
     if(isEmpty()){
         cout << "Queue is Empty!" << endl;
-        return false;
+        return T{};
     }
     return rear->data;
-    return true;
 }
 
 template <class T>

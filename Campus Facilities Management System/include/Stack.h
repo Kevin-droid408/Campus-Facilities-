@@ -16,7 +16,7 @@ class Stack{
 
         void push(T);
         bool pop();
-        bool top();                                // reads the element at the top of the stack without deleting it 
+        T top();                                // reads the element at the top of the stack without deleting it 
         bool isEmpty() const;
         void display();
 };
@@ -37,14 +37,11 @@ Stack<T>::~Stack(){
 
 template <class T>
 void Stack<T>::push(T item){
-    Node<T>* newNode = new Node(item);
-    if(!topNode)
-        newNode = topNode;
-    Node<T>* current = topNode;
-    while(current->next){
-        current = current->next;
-    }
-    current->next = newNode;
+    Node<T>* newNode = new Node<T>(item);
+
+    newNode->next = topNode;
+    topNode = newNode;
+
     count++;
 }
 
@@ -53,31 +50,27 @@ bool Stack<T>::pop(){
     if(topNode == nullptr){
         return false;
     }
-    if(topNode->next == nullptr){
-        delete topNode;
-        topNode = nullptr;
-        return true;
-    }
+
     Node<T>* temp = topNode;
-    while(temp->next->next != nullptr){
-        temp = temp->next;
-    }
-    delete temp->next;
-    temp->next = nullptr;
+    topNode = topNode->next;
+
+    delete temp;
     count--;
+
+    return true;
 }
 
 template <class T>
-bool Stack<T>::top(){
+T Stack<T>::top(){
     if(topNode ==  nullptr){
-        return false;
+        return T{};
     }
     Node<T>* current = topNode;
     while(current->next != nullptr){
         current = current->next;
     }
     return current->data;
-    return true;
+
 }
 template <class T>
 bool Stack<T>::isEmpty() const{
