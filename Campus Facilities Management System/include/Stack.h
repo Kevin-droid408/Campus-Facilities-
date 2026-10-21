@@ -55,10 +55,12 @@ T Stack<T>::pop(){
     }
 
     Node<T>* temp = topNode;
+    T item = temp->data;
+
     topNode = topNode->next;
-    T item = topNode->data;
 
     count--;
+    
     delete temp;
     return item;
 }
