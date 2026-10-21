@@ -15,10 +15,12 @@ class Stack{
         ~Stack();                               // destructor
 
         void push(T);
-        bool pop();
+        T pop();
         T top();                                // reads the element at the top of the stack without deleting it 
         bool isEmpty() const;
         void display();
+
+        int size();
 };
 
 // class implementations
@@ -46,18 +48,19 @@ void Stack<T>::push(T item){
 }
 
 template <class T>
-bool Stack<T>::pop(){
+T Stack<T>::pop(){
     if(topNode == nullptr){
-        return false;
+        cout << "Stack Underflow" << endl;
+        return T{};
     }
 
     Node<T>* temp = topNode;
     topNode = topNode->next;
+    T item = topNode->data;
 
-    delete temp;
     count--;
-
-    return true;
+    delete temp;
+    return item;
 }
 
 template <class T>
@@ -65,13 +68,10 @@ T Stack<T>::top(){
     if(topNode ==  nullptr){
         return T{};
     }
-    Node<T>* current = topNode;
-    while(current->next != nullptr){
-        current = current->next;
-    }
-    return current->data;
-
+    
+    return topNode->data;
 }
+
 template <class T>
 bool Stack<T>::isEmpty() const{
     return topNode == nullptr;
@@ -88,6 +88,11 @@ void Stack<T>::display(){
         cout << current->data << endl;
         current = current->next;
     }
+}
+
+template <class T>
+int Stack<T>::size(){
+    return count;
 }
 
 #endif

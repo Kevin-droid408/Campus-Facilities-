@@ -18,8 +18,9 @@ class PriorityQueue{
         void heapify(int);                              
         void buildHeap(const vector<T>&);               
         void insert(T);                                 
-        T top();                                        
-        T pop();                                        
+        T top() const;                                        
+        T pop();   
+        bool isEmpty() const;                                     
         void deleteKey(T);                              
         void display() const;                           
 
@@ -30,7 +31,10 @@ class PriorityQueue{
 /*Constructor to initialize the heap with a given capacity*/
 template <class T>
 PriorityQueue<T>::PriorityQueue(int capacity){
-   
+    if(capacity < 1){                                   // fix capacity to a minimum of 1
+        capacity = 1;
+    }
+
     this->size = 0;
     this->capacity = capacity;
     this->array.resize(capacity);
@@ -51,22 +55,34 @@ void PriorityQueue<T>::heapify(int i){
         largest = right;
 
     if(largest != i){
-        swap(array[i], array[largest]);
+        /*swap*/
+        T temp = array[i];
+        array[i] = array[largest];
+        array[largest] = temp;
+
         heapify(largest);
+
     }
 }
 
 /*function to build max heap from a given array*/
 template <class T>
 void PriorityQueue<T>::buildHeap(const vector<T>& arr){
+//cast so we compare int with int
+    int n = static_cast<int>(arr.size());
 
-    if(arr.size() > capacity){
-        capacity = arr.size();
+    if(n > capacity){
+        capacity = n;
+    }
+    
+    //keep capacity at least 1 so insert() can still grow the heap
+    if(capacity < 1){
+        capacity = 1;
     }
 
     array = arr;
     array.resize(capacity);
-    size = arr.size();
+    size = n;
 
     for(int i = size / 2 - 1; i >= 0; i--){
         heapify(i);
@@ -89,14 +105,16 @@ void PriorityQueue<T>::insert(T item){
    
     // Fix the max heap property if it is violated
     while (i != 0 && array[(i - 1) / 2] < array[i]) {
-        swap(array[i], array[(i - 1) / 2]);
+        T temp = array[i];
+        array[i] = array[(i - 1) / 2];
+        array[(i - 1) / 2] = temp;
         i = (i - 1) / 2;
     }
 }
 
 /*function to get the item of the root node of the max heap*/
 template <class T>
-T PriorityQueue<T>::top(){
+T PriorityQueue<T>::top() const{
    
     if(size <= 0)            // indicates that the heap is empty
         return T{};
@@ -110,17 +128,26 @@ T PriorityQueue<T>::pop(){
     
     if(size <= 0)
         return T{};
+
     if(size == 1){
         size--;
         return array[0];
     }
+
     //store the maximum item and remove it//
     T root = array[0];
     array[0] = array[size - 1];
     size--;
+
     // Heapify the root node after deletion
     heapify(0);
     return root;
+}
+
+/*Function to test if the heap is empty*/
+template <class T>
+bool PriorityQueue<T>::isEmpty() const{
+    return size == 0;
 }
 
 /*function to delete a specific key from the heap*/
@@ -156,7 +183,9 @@ void PriorityQueue<T>::deleteKey(T key){
        
         // Move the element up if it is larger than its parent
         while(index > 0 && array[index] > array[(index - 1) / 2]){
-            swap(array[index], array[(index - 1) / 2]);
+            T temp = array[index];
+            array[index] = array[(index - 1) / 2];
+            array[(index - 1) / 2] = temp;
             index = (index - 1) / 2;
         }
     }

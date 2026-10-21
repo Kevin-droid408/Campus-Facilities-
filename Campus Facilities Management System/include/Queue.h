@@ -16,23 +16,25 @@ class Queue{
         ~Queue();                           //destructor constructor
 
         void enqueue(T);
-        void dequeue();
-        T peek();
-        T peeklast();
+        bool dequeue();
+        T peek() const;
+        T peeklast() const;
         bool isEmpty() const;
-        bool isFull();
-        void display();
+        bool isFull() const;
+        void display() const;
 
 };
 
-//implementations
+/*----------implementations----------*/
 
+/*constructor to initialize the Queue*/
 template <class T>
 Queue<T>::Queue(){
     rear = nullptr;
     count = 0;
 }
 
+/*destructor to deallocate memory*/
 template <class T>
 Queue<T>::~Queue() {
     while (!isEmpty()) {
@@ -49,6 +51,7 @@ Queue<T>::~Queue() {
     }
 }
 
+/*function that adds an element at the rear*/
 template <class T>
 void Queue<T>::enqueue(T item){
     Node<T>* newNode = new Node<T>(item);
@@ -65,14 +68,14 @@ void Queue<T>::enqueue(T item){
     count++;
 }
 
+/*function that removes the front element*/
 template <class T>
-void Queue<T>::dequeue(){
+bool Queue<T>::dequeue(){
     if(isEmpty()){
         cout << "Queue is Empty!" << endl;
-        return;
+        return false;
     }
     Node<T>* front = rear->next;
-    T item = front->data;
 
     if (front == rear){
         //when only one node is left
@@ -84,20 +87,22 @@ void Queue<T>::dequeue(){
         delete front;
     }
     count--;
-    cout << item << endl;                   // the item that has been removed
+    return true;                                    // the item that has been removed
 }
 
+/*function that returns the first element in the queue*/
 template <class T>
-T Queue<T>::peek(){
+T Queue<T>::peek() const{
     if(isEmpty()){
         cout << "Queue is Empty!" << endl;
         return T{};
     }
-    return rear->next->data;
+    return rear->next->data;                //traverses to the front and returns the data in that node
 }
 
+/*function that returns the last element*/
 template <class T>
-T Queue<T>::peeklast(){
+T Queue<T>::peeklast() const{
     if(isEmpty()){
         cout << "Queue is Empty!" << endl;
         return T{};
@@ -105,18 +110,21 @@ T Queue<T>::peeklast(){
     return rear->data;
 }
 
+/*function that determines whether the queue is empty or not*/
 template <class T>
 bool Queue<T>::isEmpty() const{
     return rear == nullptr;
 }
 
+/*function that tests if the queue is full*/
 template <class T>
-bool Queue<T>::isFull(){
+bool Queue<T>::isFull() const{
     return false;
 }
 
+/*displays element of the queue*/
 template <class T>
-void Queue<T>::display(){
+void Queue<T>::display() const{
     if(isEmpty()){
         cout << "Queue is Empty!" << endl;
         return;
@@ -125,12 +133,13 @@ void Queue<T>::display(){
     Node<T>* current = rear->next;                      //we start at the front of the queue
     cout << "Queue (Front to Rear): ";
 
-    int elementsPrinted = 0;
+    int elementsPrinted = 0;                            // tracks the number of printed elements
     while(elementsPrinted < count){
         cout << current->data << " ";
         current = current->next;
         elementsPrinted++;
     }
+    cout << endl;                                   //ends output with a new line
 }
 
 #endif
