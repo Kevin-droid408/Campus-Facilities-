@@ -3,6 +3,7 @@
 #include "include/PriorityQueue.h"
 #include "include/Request.h"
 #include "include/RequestProcessor.h"
+#include "include/ActivityScheduler.h"
 
 #include <iostream>
 #include <string>
