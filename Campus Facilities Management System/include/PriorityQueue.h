@@ -198,6 +198,11 @@ void PriorityQueue<T>::deleteKey(T key){
 /*function to display the heap*/
 template <class T>
 void PriorityQueue<T>::display()const{
+    if(size == 0){
+        cout << "Heap is Empty!" << endl;
+        return;
+    }
+
     cout << "Max Heap: ";
     for(int i = 0; i < size; i++){
         cout << array[i] << ",";

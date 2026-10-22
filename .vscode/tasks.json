@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build Campus Facilities",
+            "command": "C:/msys64/ucrt64/bin/g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-I", "${workspaceFolder}/Campus Facilities Management System/include",
+                "${workspaceFolder}/Campus Facilities Management System/main.cpp",
+                "${workspaceFolder}/Campus Facilities Management System/src/Activity.cpp",
+                "${workspaceFolder}/Campus Facilities Management System/src/ActivityScheduler.cpp",
+                "${workspaceFolder}/Campus Facilities Management System/src/Request.cpp",
+                "${workspaceFolder}/Campus Facilities Management System/src/RequestProcessor.cpp",
+                "-o",
+                "${workspaceFolder}/Campus Facilities Management System/Program.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}

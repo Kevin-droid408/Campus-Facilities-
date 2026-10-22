@@ -41,4 +41,8 @@ class Request{
         bool operator<(const Request& other) const;
         bool operator==(const Request& other) const;
 };
+
+/*stream insertion operator so a Request can be printed with cout*/
+ostream& operator<<(ostream& os, const Request& request);
+
 #endif

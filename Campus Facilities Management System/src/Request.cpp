@@ -59,3 +59,26 @@ bool Request::operator<(const Request& other) const{
 bool Request::operator==(const Request& other) const{
     return requestID == other.requestID;
 }
+
+/*stream insertion operator so a Request can be printed with cout*/
+ostream& operator<<(ostream& os, const Request& request){
+    string p;
+    switch(request.getPriority()){
+        case Priority::LOW:       p = "LOW";       break;
+        case Priority::NORMAL:    p = "NORMAL";    break;
+        case Priority::HIGH:      p = "HIGH";      break;
+        case Priority::EMERGENCY: p = "EMERGENCY"; break;
+    }
+
+    string s;
+    switch(request.getStatus()){
+        case Status::PENDING:     s = "PENDING";     break;
+        case Status::IN_PROGRESS: s = "IN_PROGRESS"; break;
+        case Status::COMPLETE:    s = "COMPLETE";    break;
+    }
+
+    os << "[ID: " << request.getRequestID()
+       << ", " << request.getDescription()
+       << ", " << p << ", " << s << "]";
+    return os;
+}

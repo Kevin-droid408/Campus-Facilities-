@@ -17,6 +17,7 @@ void RequestProcessor::submitNormalRequest(const Request& request){
 /*submit a priority request*/
 void RequestProcessor::submitPriorityRequest(const Request& request){
     priorityRequests.insert(request);
+    cout << "Priority request submitted successfully. \n";
 }
 
 /*process the first normal request*/
@@ -28,6 +29,10 @@ void RequestProcessor::processNormalRequest(){
 
     Request request = normalRequests.peek();
     normalRequests.dequeue();
+
+    request.setStatus(Status::IN_PROGRESS);
+    request.setStatus(Status::COMPLETE);
+
     processedRequests.push(request);
 
     cout << "Processed normal request: "
@@ -43,6 +48,10 @@ void RequestProcessor::processPriorityRequest(){
     }
 
     Request request = priorityRequests.pop();
+
+    request.setStatus(Status::IN_PROGRESS);
+    request.setStatus(Status::COMPLETE);
+
     processedRequests.push(request);
 
     cout << "Processed priority request: "

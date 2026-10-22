@@ -42,6 +42,14 @@ bool ActivityScheduler::hasConflict(const Activity& activity) const{
 
 /*Schedule an activity*/
 bool ActivityScheduler::scheduleActivity(const Activity& activity){
+
+    /*reject invalid times: negative start, non-positive duration, or ending after midnight*/
+    if(activity.getStartMinutes() < 0 || activity.getDuration() <= 0 ||
+       activity.getEndMinutes() > 1440){
+        cout << "Scheduling failed: invalid start time or duration" << endl;
+        return false;
+    }
+
     if(hasConflict(activity)){
         cout << "Scheduling failed: activity overlaps "
              << "with an existing activity" << endl;
@@ -124,6 +132,8 @@ void ActivityScheduler::displayActivities() const{
             cout << "0";
 
         cout << end % 60 << endl;
+
+        cout << endl;
 
         current = current->next;
     }
