@@ -4,7 +4,7 @@
 #include "include/ActivityScheduler.h"
 using namespace std;
 
-/*read an int, clear the rest of the line*/
+
 int readInt(const string& prompt){
     int value;
     cout << prompt;
@@ -17,7 +17,7 @@ int readInt(const string& prompt){
     return value;
 }
 
-/*read a full line of text*/
+
 string readLine(const string& prompt){
     string text;
     cout << prompt;
@@ -25,7 +25,7 @@ string readLine(const string& prompt){
     return text;
 }
 
-/*read an HH:MM style time as hours and minutes, return minutes after midnight*/
+
 int readTime(const string& label){
     int h = readInt(label + " hour (0-23): ");
     int m = readInt(label + " minute (0-59): ");
@@ -92,17 +92,17 @@ void activityMenu(ActivityScheduler& scheduler){
             scheduler.displayActivities();
         }
         else if(choice == 3){
-            /*valid, out of order to test sorted insert*/
+            
             scheduler.scheduleActivity(Activity(1, "26-10-25", "Lecture", 600, 60));
             scheduler.scheduleActivity(Activity(2, "26-10-24", "Meeting", 480, 90));
             scheduler.scheduleActivity(Activity(3, "26-10-25", "Lab", 540, 30));
-            /*should fail: overlaps Lecture*/
+            
             scheduler.scheduleActivity(Activity(4, "26-10-25", "Clash", 630, 60));
-            /*should fail: zero duration*/
+            
             scheduler.scheduleActivity(Activity(5, "26-10-26", "Bad", 600, 0));
-            /*should fail: ends after midnight*/
+            
             scheduler.scheduleActivity(Activity(6, "26-10-26", "Late", 1400, 100));
-            /*back-to-back with Lab is allowed*/
+            
             scheduler.scheduleActivity(Activity(7, "26-10-25", "Study", 570, 30));
         }
         else if(choice != 0){
@@ -133,3 +133,19 @@ int main(){
 
     return 0;
 }
+/*#include "include/RequestProcessor.h"
+#include "include/ActivityScheduler.h"
+#include "include/Activity.h"
+#include "include/PriorityQueue.h"
+#include "include/Queue.h"
+#include "include/Request.h"
+#include "include/Stack.h"
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    cout << "Welcome to the Campus Facilities Management System!" << endl;
+    cout << "This is a placeholder for the main application logic." << endl;
+    return 0;
+}*/
