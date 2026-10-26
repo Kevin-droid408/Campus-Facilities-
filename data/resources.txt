@@ -1,0 +1,449 @@
+SCE-P001|Physics Lab 1|Lab|Science Building|30|Available
+SCE-P002|Physics Lab 2|Lab|Science Building|30|Available
+SCE-P003|Physics Lab 3|Lab|Science Building|30|Available
+SCE-C001|Chemistry Lab 1|Lab|Science Building|30|Available
+SCE-C002|Chemistry Lab 2|Lab|Science Building|30|Available
+SCE-C003|Chemistry Lab 3|Lab|Science Building|30|Available
+SCE-COMP|Computer Lab|Lab|Science Building|40|Available
+SCE-101|Office 101|Office|Science Building|2|Available
+SCE-102|Office 102|Office|Science Building|2|Available
+SCE-103|Office 103|Office|Science Building|2|Available
+SCE-104|Office 104|Office|Science Building|2|Available
+SCE-105|Office 105|Office|Science Building|2|Available
+SCE-106|Office 106|Office|Science Building|2|Available
+SCE-107|Office 107|Office|Science Building|2|Available
+SCE-108|Office 108|Office|Science Building|2|Available
+SCE-109|Office 109|Office|Science Building|2|Available
+SCE-110|Office 110|Office|Science Building|2|Available
+SCE-111|Office 111|Office|Science Building|2|Available
+SCE-112|Office 112|Office|Science Building|2|Available
+SCE-113|Office 113|Office|Science Building|2|Available
+SCE-114|Office 114|Office|Science Building|2|Available
+SCE-115|Office 115|Office|Science Building|2|Available
+SCE-HALL|SLT-HALL|Lecture Room|Science Building|100|Available
+SCE-T001|Toilet 1|Toilet|Science Building|4|Available
+SCE-T002|Toilet 2|Toilet|Science Building|4|Available
+SCE-T003|Toilet 3|Toilet|Science Building|4|Available
+SCE-T004|Toilet 4|Toilet|Science Building|4|Available
+AGR-101|Office 101|Office|Agriculture Building|2|Available
+AGR-102|Office 102|Office|Agriculture Building|2|Available
+AGR-103|Office 103|Office|Agriculture Building|2|Available
+AGR-104|Office 104|Office|Agriculture Building|2|Available
+AGR-105|Office 105|Office|Agriculture Building|2|Available
+AGR-106|Office 106|Office|Agriculture Building|2|Available
+AGR-107|Office 107|Office|Agriculture Building|2|Available
+AGR-108|Office 108|Office|Agriculture Building|2|Available
+AGR-109|Office 109|Office|Agriculture Building|2|Available
+AGR-110|Office 110|Office|Agriculture Building|2|Available
+AGR-111|Office 111|Office|Agriculture Building|2|Available
+AGR-112|Office 112|Office|Agriculture Building|2|Available
+AGR-113|Office 113|Office|Agriculture Building|2|Available
+AGR-114|Office 114|Office|Agriculture Building|2|Available
+AGR-115|Office 115|Office|Agriculture Building|2|Available
+AGR-116|Office 116|Office|Agriculture Building|2|Available
+AGR-117|Office 117|Office|Agriculture Building|2|Available
+AGR-118|Office 118|Office|Agriculture Building|2|Available
+AGR-119|Office 119|Office|Agriculture Building|2|Available
+AGR-120|Office 120|Office|Agriculture Building|2|Available
+AGR-121|Office 121|Office|Agriculture Building|2|Available
+AGR-122|Office 122|Office|Agriculture Building|2|Available
+AGR-123|Office 123|Office|Agriculture Building|2|Available
+AGR-124|Office 124|Office|Agriculture Building|2|Available
+AGR-125|Office 125|Office|Agriculture Building|2|Available
+AGR-126|Office 126|Office|Agriculture Building|2|Available
+AGR-127|Office 127|Office|Agriculture Building|2|Available
+AGR-128|Office 128|Office|Agriculture Building|2|Available
+AGR-129|Office 129|Office|Agriculture Building|2|Available
+AGR-130|Office 130|Office|Agriculture Building|2|Available
+AGR-131|Office 131|Office|Agriculture Building|2|Available
+AGR-132|Office 132|Office|Agriculture Building|2|Available
+AGR-133|Office 133|Office|Agriculture Building|2|Available
+AGR-134|Office 134|Office|Agriculture Building|2|Available
+AGR-135|Office 135|Office|Agriculture Building|2|Available
+AGR-136|Office 136|Office|Agriculture Building|2|Available
+AGR-137|Office 137|Office|Agriculture Building|2|Available
+AGR-138|Office 138|Office|Agriculture Building|2|Available
+AGR-139|Office 139|Office|Agriculture Building|2|Available
+AGR-140|Office 140|Office|Agriculture Building|2|Available
+AGR-141|Office 141|Office|Agriculture Building|2|Available
+AGR-142|Office 142|Office|Agriculture Building|2|Available
+AGR-143|Office 143|Office|Agriculture Building|2|Available
+AGR-144|Office 144|Office|Agriculture Building|2|Available
+AGR-145|Office 145|Office|Agriculture Building|2|Available
+AGR-146|Office 146|Office|Agriculture Building|2|Available
+AGR-147|Office 147|Office|Agriculture Building|2|Available
+AGR-148|Office 148|Office|Agriculture Building|2|Available
+AGR-149|Office 149|Office|Agriculture Building|2|Available
+AGR-150|Office 150|Office|Agriculture Building|2|Available
+AGR-151|Office 151|Office|Agriculture Building|2|Available
+AGR-152|Office 152|Office|Agriculture Building|2|Available
+AGR-153|Office 153|Office|Agriculture Building|2|Available
+AGR-154|Office 154|Office|Agriculture Building|2|Available
+AGR-155|Office 155|Office|Agriculture Building|2|Available
+AGR-156|Office 156|Office|Agriculture Building|2|Available
+AGR-157|Office 157|Office|Agriculture Building|2|Available
+AGR-158|Office 158|Office|Agriculture Building|2|Available
+AGR-159|Office 159|Office|Agriculture Building|2|Available
+AGR-160|Office 160|Office|Agriculture Building|2|Available
+AGR-161|Office 161|Office|Agriculture Building|2|Available
+AGR-162|Office 162|Office|Agriculture Building|2|Available
+AGR-163|Office 163|Office|Agriculture Building|2|Available
+AGR-164|Office 164|Office|Agriculture Building|2|Available
+AGR-165|Office 165|Office|Agriculture Building|2|Available
+AGR-166|Office 166|Office|Agriculture Building|2|Available
+AGR-167|Office 167|Office|Agriculture Building|2|Available
+AGR-168|Office 168|Office|Agriculture Building|2|Available
+AGR-169|Office 169|Office|Agriculture Building|2|Available
+AGR-170|Office 170|Office|Agriculture Building|2|Available
+AGR-171|Office 171|Office|Agriculture Building|2|Available
+AGR-172|Office 172|Office|Agriculture Building|2|Available
+AGR-173|Office 173|Office|Agriculture Building|2|Available
+AGR-174|Office 174|Office|Agriculture Building|2|Available
+AGR-175|Office 175|Office|Agriculture Building|2|Available
+AGR-176|Office 176|Office|Agriculture Building|2|Available
+AGR-T001|Toilet 1|Toilet|Agriculture Building|4|Available
+AGR-T002|Toilet 2|Toilet|Agriculture Building|4|Available
+AGR-T003|Toilet 3|Toilet|Agriculture Building|4|Available
+AGR-T004|Toilet 4|Toilet|Agriculture Building|4|Available
+BTM-101|Lecture Room 101|Lecture Room|BTM|80|Available
+BTM-102|Lecture Room 102|Lecture Room|BTM|80|Available
+BTM-103|Lecture Room 103|Lecture Room|BTM|80|Available
+BTM-104|Lecture Room 104|Lecture Room|BTM|80|Available
+BTM-105|Lecture Room 105|Lecture Room|BTM|80|Available
+BTM-106|Lecture Room 106|Lecture Room|BTM|80|Available
+BTM-107|Lecture Room 107|Lecture Room|BTM|80|Available
+BTM-108|Lecture Room 108|Lecture Room|BTM|80|Available
+BTM-109|Lecture Room 109|Lecture Room|BTM|80|Available
+BTM-110|Lecture Room 110|Lecture Room|BTM|80|Available
+BTM-111|Lecture Room 111|Lecture Room|BTM|80|Available
+BTM-112|Lecture Room 112|Lecture Room|BTM|80|Available
+BTM-113|Lecture Room 113|Lecture Room|BTM|80|Available
+BTM-114|Lecture Room 114|Lecture Room|BTM|80|Available
+BTM-115|Lecture Room 115|Lecture Room|BTM|80|Available
+BTM-116|Lecture Room 116|Lecture Room|BTM|80|Available
+BTM-117|Lecture Room 117|Lecture Room|BTM|80|Available
+BTM-118|Lecture Room 118|Lecture Room|BTM|80|Available
+BTM-119|Lecture Room 119|Lecture Room|BTM|80|Available
+BTM-120|Lecture Room 120|Lecture Room|BTM|80|Available
+BTM-121|Lecture Room 121|Lecture Room|BTM|80|Available
+BTM-122|Lecture Room 122|Lecture Room|BTM|80|Available
+BTM-123|Lecture Room 123|Lecture Room|BTM|80|Available
+BTM-124|Lecture Room 124|Lecture Room|BTM|80|Available
+BTM-125|Lecture Room 125|Lecture Room|BTM|80|Available
+BTM-126|Lecture Room 126|Lecture Room|BTM|80|Available
+BTM-201|Office 201|Office|BTM|2|Available
+BTM-202|Office 202|Office|BTM|2|Available
+BTM-203|Office 203|Office|BTM|2|Available
+BTM-204|Office 204|Office|BTM|2|Available
+BTM-205|Office 205|Office|BTM|2|Available
+BTM-206|Office 206|Office|BTM|2|Available
+BTM-207|Office 207|Office|BTM|2|Available
+BTM-208|Office 208|Office|BTM|2|Available
+BTM-209|Office 209|Office|BTM|2|Available
+BTM-210|Office 210|Office|BTM|2|Available
+BTM-211|Office 211|Office|BTM|2|Available
+BTM-T001|Toilet 1|Toilet|BTM|4|Available
+BTM-T002|Toilet 2|Toilet|BTM|4|Available
+BTM-T003|Toilet 3|Toilet|BTM|4|Available
+BTM-T004|Toilet 4|Toilet|BTM|4|Available
+BTM-T005|Toilet 5|Toilet|BTM|4|Available
+BTM-T006|Toilet 6|Toilet|BTM|4|Available
+BTM-T007|Toilet 7|Toilet|BTM|4|Available
+BTM-T008|Toilet 8|Toilet|BTM|4|Available
+ETF-001|Room 1|Lecture Room|ETF|60|Available
+ETF-002|Room 2|Lecture Room|ETF|60|Available
+ETF-003|Room 3|Lecture Room|ETF|60|Available
+ETF-T001|Toilet 1|Toilet|ETF|4|Available
+ETF-T002|Toilet 2|Toilet|ETF|4|Available
+ETF-T003|Toilet 3|Toilet|ETF|4|Available
+ETF-T004|Toilet 4|Toilet|ETF|4|Available
+DTF-101|Room 101|Lecture Room|DTF|60|Available
+DTF-102|Room 102|Lecture Room|DTF|60|Available
+DTF-103|Room 103|Lecture Room|DTF|60|Available
+DTF-104|Room 104|Lecture Room|DTF|60|Available
+DTF-105|Room 105|Lecture Room|DTF|60|Available
+DTF-106|Room 106|Lecture Room|DTF|60|Available
+DTF-107|Room 107|Lecture Room|DTF|60|Available
+DTF-108|Room 108|Lecture Room|DTF|60|Available
+DTF-109|Room 109|Lecture Room|DTF|60|Available
+DTF-110|Room 110|Lecture Room|DTF|60|Available
+DTF-111|Room 111|Lecture Room|DTF|60|Available
+DTF-112|Room 112|Lecture Room|DTF|60|Available
+DTF-113|Room 113|Lecture Room|DTF|60|Available
+DTF-114|Room 114|Lecture Room|DTF|60|Available
+DTF-115|Room 115|Lecture Room|DTF|60|Available
+DTF-116|Room 116|Lecture Room|DTF|60|Available
+DTF-117|Room 117|Lecture Room|DTF|60|Available
+DTF-118|Room 118|Lecture Room|DTF|60|Available
+DTF-119|Room 119|Lecture Room|DTF|60|Available
+DTF-120|Room 120|Lecture Room|DTF|60|Available
+DTF-121|Room 121|Lecture Room|DTF|60|Available
+DTF-T001|Toilet 1|Toilet|DTF|4|Available
+DTF-T002|Toilet 2|Toilet|DTF|4|Available
+DTF-T003|Toilet 3|Toilet|DTF|4|Available
+DTF-T004|Toilet 4|Toilet|DTF|4|Available
+DTF-T005|Toilet 5|Toilet|DTF|4|Available
+DTF-T006|Toilet 6|Toilet|DTF|4|Available
+DTF-T007|Toilet 7|Toilet|DTF|4|Available
+DTF-T008|Toilet 8|Toilet|DTF|4|Available
+FTF-101|Room 101|Lecture Room|FTF|60|Available
+FTF-102|Room 102|Lecture Room|FTF|60|Available
+FTF-103|Room 103|Lecture Room|FTF|60|Available
+FTF-104|Room 104|Lecture Room|FTF|60|Available
+FTF-105|Room 105|Lecture Room|FTF|60|Available
+FTF-106|Room 106|Lecture Room|FTF|60|Available
+FTF-107|Room 107|Lecture Room|FTF|60|Available
+FTF-108|Room 108|Lecture Room|FTF|60|Available
+FTF-109|Room 109|Lecture Room|FTF|60|Available
+FTF-110|Room 110|Lecture Room|FTF|60|Available
+FTF-111|Room 111|Lecture Room|FTF|60|Available
+FTF-112|Room 112|Lecture Room|FTF|60|Available
+FTF-113|Room 113|Lecture Room|FTF|60|Available
+FTF-114|Room 114|Lecture Room|FTF|60|Available
+FTF-115|Room 115|Lecture Room|FTF|60|Available
+FTF-116|Room 116|Lecture Room|FTF|60|Available
+FTF-117|Room 117|Lecture Room|FTF|60|Available
+FTF-118|Room 118|Lecture Room|FTF|60|Available
+FTF-119|Room 119|Lecture Room|FTF|60|Available
+FTF-207|Computer Lab 207|Lab|FTF|40|Available
+FTF-T001|Toilet 1|Toilet|FTF|4|Available
+FTF-T002|Toilet 2|Toilet|FTF|4|Available
+FTF-T003|Toilet 3|Toilet|FTF|4|Available
+FTF-T004|Toilet 4|Toilet|FTF|4|Available
+FTF-T005|Toilet 5|Toilet|FTF|4|Available
+FTF-T006|Toilet 6|Toilet|FTF|4|Available
+FTF-T007|Toilet 7|Toilet|FTF|4|Available
+FTF-T008|Toilet 8|Toilet|FTF|4|Available
+CMP-101|Lecture Room 101|Lecture Room|CMP|80|Available
+CMP-102|Lecture Room 102|Lecture Room|CMP|80|Available
+CMP-103|Lecture Room 103|Lecture Room|CMP|80|Available
+CMP-104|Lecture Room 104|Lecture Room|CMP|80|Available
+CMP-105|Lecture Room 105|Lecture Room|CMP|80|Available
+CMP-106|Lecture Room 106|Lecture Room|CMP|80|Available
+CMP-107|Lecture Room 107|Lecture Room|CMP|80|Available
+CMP-201|Office 201|Office|CMP|2|Available
+CMP-202|Office 202|Office|CMP|2|Available
+CMP-203|Office 203|Office|CMP|2|Available
+CMP-204|Office 204|Office|CMP|2|Available
+CMP-205|Office 205|Office|CMP|2|Available
+CMP-206|Office 206|Office|CMP|2|Available
+CMP-207|Office 207|Office|CMP|2|Available
+CMP-208|Office 208|Office|CMP|2|Available
+CMP-209|Office 209|Office|CMP|2|Available
+CMP-210|Office 210|Office|CMP|2|Available
+CMP-211|Office 211|Office|CMP|2|Available
+CMP-T001|Toilet 1|Toilet|CMP|4|Available
+CMP-T002|Toilet 2|Toilet|CMP|4|Available
+CMP-T003|Toilet 3|Toilet|CMP|4|Available
+CMP-T004|Toilet 4|Toilet|CMP|4|Available
+CMP-T005|Toilet 5|Toilet|CMP|4|Available
+CMP-T006|Toilet 6|Toilet|CMP|4|Available
+CMP-T007|Toilet 7|Toilet|CMP|4|Available
+CMP-T008|Toilet 8|Toilet|CMP|4|Available
+BOI-101|Office 101|Office|Boitjaro|2|Available
+BOI-102|Office 102|Office|Boitjaro|2|Available
+BOI-103|Office 103|Office|Boitjaro|2|Available
+BOI-104|Office 104|Office|Boitjaro|2|Available
+BOI-105|Office 105|Office|Boitjaro|2|Available
+BOI-106|Office 106|Office|Boitjaro|2|Available
+BOI-107|Office 107|Office|Boitjaro|2|Available
+BOI-108|Office 108|Office|Boitjaro|2|Available
+BOI-109|Office 109|Office|Boitjaro|2|Available
+BOI-110|Office 110|Office|Boitjaro|2|Available
+BOI-111|Office 111|Office|Boitjaro|2|Available
+BOI-112|Office 112|Office|Boitjaro|2|Available
+BOI-113|Office 113|Office|Boitjaro|2|Available
+BOI-114|Office 114|Office|Boitjaro|2|Available
+BOI-115|Office 115|Office|Boitjaro|2|Available
+BOI-116|Office 116|Office|Boitjaro|2|Available
+BOI-117|Office 117|Office|Boitjaro|2|Available
+BOI-118|Office 118|Office|Boitjaro|2|Available
+BOI-119|Office 119|Office|Boitjaro|2|Available
+BOI-120|Office 120|Office|Boitjaro|2|Available
+BOI-121|Office 121|Office|Boitjaro|2|Available
+BOI-T001|Toilet 1|Toilet|Boitjaro|4|Available
+BOI-T002|Toilet 2|Toilet|Boitjaro|4|Available
+BOI-T003|Toilet 3|Toilet|Boitjaro|4|Available
+BOI-T004|Toilet 4|Toilet|Boitjaro|4|Available
+BOI-T005|Toilet 5|Toilet|Boitjaro|4|Available
+BOI-T006|Toilet 6|Toilet|Boitjaro|4|Available
+BOI-T007|Toilet 7|Toilet|Boitjaro|4|Available
+BOI-T008|Toilet 8|Toilet|Boitjaro|4|Available
+ADM-101|Office 101|Office|Admin|2|Available
+ADM-102|Office 102|Office|Admin|2|Available
+ADM-103|Office 103|Office|Admin|2|Available
+ADM-104|Office 104|Office|Admin|2|Available
+ADM-105|Office 105|Office|Admin|2|Available
+ADM-106|Office 106|Office|Admin|2|Available
+ADM-107|Office 107|Office|Admin|2|Available
+ADM-108|Office 108|Office|Admin|2|Available
+ADM-109|Office 109|Office|Admin|2|Available
+ADM-110|Office 110|Office|Admin|2|Available
+ADM-111|Office 111|Office|Admin|2|Available
+ADM-112|Office 112|Office|Admin|2|Available
+ADM-113|Office 113|Office|Admin|2|Available
+ADM-114|Office 114|Office|Admin|2|Available
+ADM-115|Office 115|Office|Admin|2|Available
+ADM-116|Office 116|Office|Admin|2|Available
+ADM-117|Office 117|Office|Admin|2|Available
+ADM-118|Office 118|Office|Admin|2|Available
+ADM-119|Office 119|Office|Admin|2|Available
+ADM-120|Office 120|Office|Admin|2|Available
+ADM-121|Office 121|Office|Admin|2|Available
+ADM-122|Office 122|Office|Admin|2|Available
+ADM-123|Office 123|Office|Admin|2|Available
+ADM-124|Office 124|Office|Admin|2|Available
+ADM-125|Office 125|Office|Admin|2|Available
+ADM-126|Office 126|Office|Admin|2|Available
+ADM-127|Office 127|Office|Admin|2|Available
+ADM-128|Office 128|Office|Admin|2|Available
+ADM-129|Office 129|Office|Admin|2|Available
+ADM-130|Office 130|Office|Admin|2|Available
+ADM-131|Office 131|Office|Admin|2|Available
+ADM-T001|Toilet 1|Toilet|Admin|4|Available
+ADM-T002|Toilet 2|Toilet|Admin|4|Available
+ADM-T003|Toilet 3|Toilet|Admin|4|Available
+ADM-T004|Toilet 4|Toilet|Admin|4|Available
+ACD-101|Office 101|Office|Academic Office|2|Available
+ACD-102|Office 102|Office|Academic Office|2|Available
+ACD-103|Office 103|Office|Academic Office|2|Available
+ACD-104|Office 104|Office|Academic Office|2|Available
+ACD-105|Office 105|Office|Academic Office|2|Available
+ACD-106|Office 106|Office|Academic Office|2|Available
+ACD-107|Office 107|Office|Academic Office|2|Available
+ACD-108|Office 108|Office|Academic Office|2|Available
+ACD-109|Office 109|Office|Academic Office|2|Available
+ACD-110|Office 110|Office|Academic Office|2|Available
+ACD-111|Office 111|Office|Academic Office|2|Available
+ACD-T001|Toilet 1|Toilet|Academic Office|4|Available
+ACD-T002|Toilet 2|Toilet|Academic Office|4|Available
+ACD-T003|Toilet 3|Toilet|Academic Office|4|Available
+ACD-T004|Toilet 4|Toilet|Academic Office|4|Available
+NTH-HALL|Netherlands Main Hall|Hall|Netherlands Hall|500|Available
+NTH-B001|Back Room 1|Office|Netherlands Hall|2|Available
+NTH-T001|Male Toilet|Toilet|Netherlands Hall|4|Available
+NTH-T002|Female Toilet|Toilet|Netherlands Hall|4|Available
+CAF-BAK|Bakery|Cafeteria|Cafeteria|10|Available
+CAF-MAIN|Cafeteria|Cafeteria|Cafeteria|50|Available
+CAF-T001|Toilet 1|Toilet|Cafeteria|4|Available
+CAF-T002|Toilet 2|Toilet|Cafeteria|4|Available
+CAF-T003|Toilet 3|Toilet|Cafeteria|4|Available
+CAF-T004|Toilet 4|Toilet|Cafeteria|4|Available
+HIG-101|Office 101|Office|Highlands|2|Available
+HIG-102|Office 102|Office|Highlands|2|Available
+HIG-103|Office 103|Office|Highlands|2|Available
+HIG-104|Office 104|Office|Highlands|2|Available
+HIG-105|Office 105|Office|Highlands|2|Available
+HIG-106|Office 106|Office|Highlands|2|Available
+HIG-107|Office 107|Office|Highlands|2|Available
+HIG-108|Office 108|Office|Highlands|2|Available
+HIG-109|Office 109|Office|Highlands|2|Available
+HIG-110|Office 110|Office|Highlands|2|Available
+HIG-111|Office 111|Office|Highlands|2|Available
+HIG-112|Office 112|Office|Highlands|2|Available
+HIG-113|Office 113|Office|Highlands|2|Available
+HIG-114|Office 114|Office|Highlands|2|Available
+HIG-115|Office 115|Office|Highlands|2|Available
+HIG-116|Office 116|Office|Highlands|2|Available
+HIG-117|Office 117|Office|Highlands|2|Available
+HIG-118|Office 118|Office|Highlands|2|Available
+HIG-119|Office 119|Office|Highlands|2|Available
+HIG-120|Office 120|Office|Highlands|2|Available
+HIG-121|Office 121|Office|Highlands|2|Available
+HIG-T001|Toilet 1|Toilet|Highlands|4|Available
+HIG-T002|Toilet 2|Toilet|Highlands|4|Available
+HIG-T003|Toilet 3|Toilet|Highlands|4|Available
+HIG-T004|Toilet 4|Toilet|Highlands|4|Available
+STA-101|Office 101|Office|Statistics Department|2|Available
+STA-102|Office 102|Office|Statistics Department|2|Available
+STA-103|Office 103|Office|Statistics Department|2|Available
+STA-104|Office 104|Office|Statistics Department|2|Available
+STA-105|Office 105|Office|Statistics Department|2|Available
+STA-106|Office 106|Office|Statistics Department|2|Available
+STA-107|Office 107|Office|Statistics Department|2|Available
+STA-108|Office 108|Office|Statistics Department|2|Available
+STA-109|Office 109|Office|Statistics Department|2|Available
+STA-110|Office 110|Office|Statistics Department|2|Available
+STA-111|Office 111|Office|Statistics Department|2|Available
+STA-112|Office 112|Office|Statistics Department|2|Available
+STA-113|Office 113|Office|Statistics Department|2|Available
+STA-114|Office 114|Office|Statistics Department|2|Available
+STA-115|Office 115|Office|Statistics Department|2|Available
+STA-116|Office 116|Office|Statistics Department|2|Available
+STA-117|Office 117|Office|Statistics Department|2|Available
+STA-118|Office 118|Office|Statistics Department|2|Available
+STA-119|Office 119|Office|Statistics Department|2|Available
+STA-120|Office 120|Office|Statistics Department|2|Available
+STA-121|Office 121|Office|Statistics Department|2|Available
+STA-T001|Toilet 1|Toilet|Statistics Department|4|Available
+STA-T002|Toilet 2|Toilet|Statistics Department|4|Available
+STA-T003|Toilet 3|Toilet|Statistics Department|4|Available
+STA-T004|Toilet 4|Toilet|Statistics Department|4|Available
+LAW-101|Office 101|Office|Law Department|2|Available
+LAW-102|Office 102|Office|Law Department|2|Available
+LAW-103|Office 103|Office|Law Department|2|Available
+LAW-104|Office 104|Office|Law Department|2|Available
+LAW-105|Office 105|Office|Law Department|2|Available
+LAW-106|Office 106|Office|Law Department|2|Available
+LAW-107|Office 107|Office|Law Department|2|Available
+LAW-108|Office 108|Office|Law Department|2|Available
+LAW-109|Office 109|Office|Law Department|2|Available
+LAW-110|Office 110|Office|Law Department|2|Available
+LAW-111|Office 111|Office|Law Department|2|Available
+LAW-112|Office 112|Office|Law Department|2|Available
+LAW-113|Office 113|Office|Law Department|2|Available
+LAW-114|Office 114|Office|Law Department|2|Available
+LAW-115|Office 115|Office|Law Department|2|Available
+LAW-116|Office 116|Office|Law Department|2|Available
+LAW-117|Office 117|Office|Law Department|2|Available
+LAW-118|Office 118|Office|Law Department|2|Available
+LAW-119|Office 119|Office|Law Department|2|Available
+LAW-120|Office 120|Office|Law Department|2|Available
+LAW-121|Office 121|Office|Law Department|2|Available
+LAW-T001|Toilet 1|Toilet|Law Department|4|Available
+LAW-T002|Toilet 2|Toilet|Law Department|4|Available
+LAW-T003|Toilet 3|Toilet|Law Department|4|Available
+LAW-T004|Toilet 4|Toilet|Law Department|4|Available
+ICT-LAB|ICT Lab|Lab|ICT Lab|40|Available
+ICT-OFF|ICT Office|Office|ICT Lab|2|Available
+CIS-LAB|Cisco Lab|Lab|Cisco Lab|40|Available
+CIS-OFF|Cisco Office|Office|Cisco Lab|2|Available
+ISAS-101|Office 101|Office|ISAS|2|Available
+ISAS-102|Office 102|Office|ISAS|2|Available
+ISAS-103|Office 103|Office|ISAS|2|Available
+ISAS-104|Office 104|Office|ISAS|2|Available
+ISAS-105|Office 105|Office|ISAS|2|Available
+ISAS-106|Office 106|Office|ISAS|2|Available
+ISAS-107|Office 107|Office|ISAS|2|Available
+ISAS-108|Office 108|Office|ISAS|2|Available
+ISAS-109|Office 109|Office|ISAS|2|Available
+ISAS-110|Office 110|Office|ISAS|2|Available
+ISAS-111|Office 111|Office|ISAS|2|Available
+ISAS-112|Office 112|Office|ISAS|2|Available
+ISAS-113|Office 113|Office|ISAS|2|Available
+ISAS-114|Office 114|Office|ISAS|2|Available
+ISAS-115|Office 115|Office|ISAS|2|Available
+ISAS-116|Office 116|Office|ISAS|2|Available
+ISAS-117|Office 117|Office|ISAS|2|Available
+ISAS-118|Office 118|Office|ISAS|2|Available
+ISAS-119|Office 119|Office|ISAS|2|Available
+ISAS-120|Office 120|Office|ISAS|2|Available
+ISAS-121|Office 121|Office|ISAS|2|Available
+ISAS-122|Office 122|Office|ISAS|2|Available
+ISAS-123|Office 123|Office|ISAS|2|Available
+ISAS-124|Office 124|Office|ISAS|2|Available
+ISAS-125|Office 125|Office|ISAS|2|Available
+ISAS-126|Office 126|Office|ISAS|2|Available
+ISAS-127|Office 127|Office|ISAS|2|Available
+ISAS-128|Office 128|Office|ISAS|2|Available
+ISAS-129|Office 129|Office|ISAS|2|Available
+ISAS-130|Office 130|Office|ISAS|2|Available
+ISAS-131|Office 131|Office|ISAS|2|Available
+ISAS-201|Conference Room 201|Conference Room|ISAS|15|Available
+ISAS-202|Conference Room 202|Conference Room|ISAS|15|Available
+ISAS-203|Conference Room 203|Conference Room|ISAS|15|Available
+ISAS-204|Conference Room 204|Conference Room|ISAS|15|Available
+ISAS-T001|Toilet 1|Toilet|ISAS|4|Available
+ISAS-T002|Toilet 2|Toilet|ISAS|4|Available
+ISAS-T003|Toilet 3|Toilet|ISAS|4|Available
+ISAS-T004|Toilet 4|Toilet|ISAS|4|Available

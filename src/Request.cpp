@@ -1,7 +1,7 @@
 #include "Request.h"
 
 /*parameterized constructor to initialize the Request*/
-Request::Request(int id, string des, Priority p, Status s){
+Request::Request(int id, string des, Priority p, RequestStatus s){
     requestID = id;
     description = des;
     priority = p;
@@ -13,7 +13,7 @@ Request::Request(){
     requestID = 0;
     description = " ";
     priority = Priority::LOW;
-    status = Status::PENDING;
+    status = RequestStatus::PENDING;
 }
 
 /*getRequestID getter*/
@@ -31,13 +31,13 @@ Priority Request::getPriority() const{
     return priority;
 }
 
-/*getStatus getter*/
-Status Request::getStatus() const{
+/*getRequestStatus getter*/
+RequestStatus Request::getRequestStatus() const{
     return status;
 } 
 
-/*setStatus setter*/
-void Request::setStatus(Status s){
+/*setRequestStatus setter*/
+void Request::setRequestStatus(RequestStatus s){
     status = s;
 }
 
@@ -71,10 +71,10 @@ ostream& operator<<(ostream& os, const Request& request){
     }
 
     string s;
-    switch(request.getStatus()){
-        case Status::PENDING:     s = "PENDING";     break;
-        case Status::IN_PROGRESS: s = "IN_PROGRESS"; break;
-        case Status::COMPLETE:    s = "COMPLETE";    break;
+    switch(request.getRequestStatus()){
+        case RequestStatus::PENDING:     s = "PENDING";     break;
+        case RequestStatus::IN_PROGRESS: s = "IN_PROGRESS"; break;
+        case RequestStatus::COMPLETE:    s = "COMPLETE";    break;
     }
 
     os << "[ID: " << request.getRequestID()

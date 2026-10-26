@@ -30,8 +30,8 @@ void RequestProcessor::processNormalRequest(){
     Request request = normalRequests.peek();
     normalRequests.dequeue();
 
-    request.setStatus(Status::IN_PROGRESS);
-    request.setStatus(Status::COMPLETE);
+    request.setRequestStatus(RequestStatus::IN_PROGRESS);
+    request.setRequestStatus(RequestStatus::COMPLETE);
 
     processedRequests.push(request);
 
@@ -49,8 +49,8 @@ void RequestProcessor::processPriorityRequest(){
 
     Request request = priorityRequests.pop();
 
-    request.setStatus(Status::IN_PROGRESS);
-    request.setStatus(Status::COMPLETE);
+    request.setRequestStatus(RequestStatus::IN_PROGRESS);
+    request.setRequestStatus(RequestStatus::COMPLETE);
 
     processedRequests.push(request);
 
